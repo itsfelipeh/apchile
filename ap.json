@@ -39,7 +39,7 @@
       },
       "DiscoveryManifestURL": "https://smp-device-content.apple.com/static/cert/discovery/v1/manifest.json"
     },
-    "AZ": {
+    "CL": {
       "BuddyManualProvisioningEnabled": true,
       "BrowseProvisioningBankAppsEnabled": true,
       "BuddyProvisioningEnabled": true,
