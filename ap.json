@@ -1,6 +1,6 @@
 {
   "SupportedRegions": {
-    "USasass": {
+    "US": {
       "BuddyManualProvisioningEnabled": true,
       "BuddyProvisioningEnabled": true,
       "ManualProvisioningEnabled": true,
