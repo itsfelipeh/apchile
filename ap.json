@@ -1,6 +1,6 @@
 {
   "SupportedRegions": {
-    "USin": {
+    "US": {
       "BuddyManualProvisioningEnabled": true,
       "BuddyProvisioningEnabled": true,
       "ManualProvisioningEnabled": true,
