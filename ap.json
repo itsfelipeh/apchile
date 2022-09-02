@@ -1680,22 +1680,40 @@
     "sharing": {
       "activationCodeConfigurations": [
         {
-          "manufacturerIdentifier": "BMW1",
           "accessPassType": "car",
-          "blockedSharingChannels": [
-            "com.apple.UIKit.activity.AirDrop"
-          ]
+          "channelBundleIdentifier": "com.apple.SMS",
+          "trustLevel": "blocked",
+          "channelRiskLevel": "high",
+          "versionRange": {
+            "maximum": {
+              "iPhone": "16.1"
+            }
+          }
+        },
+        {
+          "accessPassType": "car",
+          "channelBundleIdentifier": "com.apple.SMS",
+          "trustLevel": "blocked",
+          "channelRiskLevel": "medium",
+          "versionRange": {
+            "maximum": {
+              "iPhone": "16.1"
+            }
+          }
+        },
+        {
+          "accessPassType": "car",
+          "allowedSharingChannels": [
+            "com.apple.UIKit.activity.Message"
+          ],
+          "versionRange": {
+            "maximum": {
+              "iPhone": "16.1"
+            }
+          }
         }
       ],
       "enabled": true,
-      "openGraphPreviewUrls": {
-        "hospitality": "https://smp-device-content.apple.com/static/displayInfo/hospitality_key.json",
-        "corporate": "https://smp-device-content.apple.com/static/displayInfo/corporate_key.json",
-        "home": "https://smp-device-content.apple.com/static/displayInfo/home_key.json",
-        "car": "https://smp-device-content.apple.com/static/displayInfo/car_key.json",
-        "multiFamilyHome": "https://smp-device-content.apple.com/static/displayInfo/mfh_key.json",
-        "access": "https://smp-device-content.apple.com/static/displayInfo/general_key.json"
-      },
       "relayServerHostsToHandleUniversalLinks": [
         "walletshare.googleapis.com"
       ]
