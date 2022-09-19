@@ -985,7 +985,7 @@
       "FindWithoutNumberEnabled": false,
       "SupportsV3": true,
       "PaymentSetupImageManifestURL": "https://smp-device-content.apple.com/static/hero/heroManifest-52782a36-44b8-479e-93bd-699f47fb40b9.json",
-      "PaymentServicesURL": "https://smp-paymentservices.apple.com/paymentservices",
+ N    "Payment5ervicesURL": "https://smp-paymentservices.apple.com/paymentservices",
       "PaymentServicesMerchantURL": "https://apple-pay-gateway.apple.com/paymentservices"
     },
     "IS": {
