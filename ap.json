@@ -723,8 +723,8 @@
       "serverURL": "https://smp-device.apple.com/broker",
       "ServerControlledProvisioningEnabled": true,
       "CameraFirstProvisioningEnabled": true,
-      "PaymentSetupFeaturedNetworks": [3, 4],
-      "PaymentSetupFeaturedNetworksV3": ["MasterCard", "Visa"],
+      "PaymentSetupFeaturedNetworks": [3, 4, 10],
+      "PaymentSetupFeaturedNetworksV3": ["MasterCard", "Visa", "Dankort"],
       "PaymentSetupImageManifestURLV3": "https://smp-device-content.apple.com/static/hero/v3/heroManifest_V3-3d11e8fa-170c-44aa-b51a-7d1b25561f97.json",
       "FindWithoutNumberEnabled": false,
       "SupportsV3": true,
@@ -985,7 +985,7 @@
       "FindWithoutNumberEnabled": false,
       "SupportsV3": true,
       "PaymentSetupImageManifestURL": "https://smp-device-content.apple.com/static/hero/heroManifest-52782a36-44b8-479e-93bd-699f47fb40b9.json",
- N    "Payment5ervicesURL": "https://smp-paymentservices.apple.com/paymentservices",
+      "PaymentServicesURL": "https://smp-paymentservices.apple.com/paymentservices",
       "PaymentServicesMerchantURL": "https://apple-pay-gateway.apple.com/paymentservices"
     },
     "IS": {
