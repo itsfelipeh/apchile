@@ -37,7 +37,7 @@
           "enablementThreshold": 1
         }
       },
-      "DiscoveryManifestURL": "https://smp-device-content.apple.com/static/cert/discovery/v1/manifest.json"
+      "DiscoveryManifestURL": "https://smp-device-content.apple.com/static/discovery/v1/manifest.json"
     },
     "AZ": {
       "BuddyManualProvisioningEnabled": true,
@@ -486,7 +486,12 @@
       "serverURL": "https://smp-device.apple.com/broker",
       "CameraFirstProvisioningEnabled": true,
       "PaymentSetupFeaturedNetworks": [3,4,19],
-      "PaymentSetupFeaturedNetworksV3": ["MasterCard", "Visa", "Mir"],
+      "MarketGeoRegionNotificationNetworkThresholds": {
+        "3": 1,
+        "4": 1
+       },
+      "MarketGeoRegionNotificationDisabledNetworks": [],
+      "PaymentSetupFeaturedNetworksV3": ["MasterCard", "Visa","Mir"],
       "PaymentSetupImageManifestURLV3": "https://smp-device-content.apple.com/static/hero/v3/heroManifest_V3-3d11e8fa-170c-44aa-b51a-7d1b25561f97.json",
       "FindWithoutNumberEnabled": false,
       "SupportsV3": true,
@@ -522,7 +527,7 @@
       "PaymentSetupFeaturedNetworksV2": ["AmEx", "MasterCard", "Visa", "JCB", "Suica", "PASMO"],
       "PaymentSetupPrimaryFeaturedNetworkV2": "Suica",
       "FindWithoutNumberEnabled": false,
-      "PaymentSetupBrowsableProductTypes": ["transit", "eMoney"],
+      "PaymentSetupBrowsableProductTypes": ["transit"],
       "PaymentSetupImageManifestURL": "https://smp-device-content.apple.com/static/hero/JP_heroManifest-79445b3e-ab99-42d2-9002-edeed59a11d2.json",
       "PaymentSetupImageManifestURLV2": "https://smp-device-content.apple.com/static/hero/v2/heroManifest-prod-34c9c532-1e7d-456b-8f1b-46cd1d00c4c6.json",
       "SupportsV3": true,
@@ -693,6 +698,11 @@
       "CameraFirstProvisioningEnabled": true,
       "PaymentSetupFeaturedNetworks": [1, 3, 4],
       "PaymentSetupFeaturedNetworksV3": ["AmEx", "MasterCard", "Visa"],
+      "MarketGeoRegionNotificationNetworkThresholds": {
+        "3": 1,
+        "4": 1
+      },
+      "MarketGeoRegionNotificationDisabledNetworks": [],
       "PaymentSetupImageManifestURLV3": "https://smp-device-content.apple.com/static/hero/v3/heroManifest_V3-3d11e8fa-170c-44aa-b51a-7d1b25561f97.json",
       "FindWithoutNumberEnabled": false,
       "SupportsV3": true,
@@ -710,6 +720,11 @@
       "PaymentSetupFeaturedNetworks": [1, 3, 4],
       "PaymentSetupFeaturedNetworksV3": ["AmEx", "MasterCard", "Visa"],
       "PaymentSetupImageManifestURLV3": "https://smp-device-content.apple.com/static/hero/v3/heroManifest_V3-3d11e8fa-170c-44aa-b51a-7d1b25561f97.json",
+      "MarketGeoRegionNotificationNetworkThresholds": {
+        "3": 1,
+        "4": 1
+      },
+      "MarketGeoRegionNotificationDisabledNetworks": [],
       "FindWithoutNumberEnabled": false,
       "SupportsV3": true,
       "PaymentSetupImageManifestURL": "https://smp-device-content.apple.com/static/hero/heroManifest-52782a36-44b8-479e-93bd-699f47fb40b9.json",
@@ -898,7 +913,7 @@
       "ServerControlledProvisioningEnabled": true,
       "CameraFirstProvisioningEnabled": true,
       "PaymentSetupFeaturedNetworks": [1, 3, 4],
-      "PaymentSetupFeaturedNetworksV3": ["AmEx", "MasterCard", "Visa"],
+      "PaymentSetupFeaturedNetworksV3": ["AmEx","MasterCard", "Visa"],
       "PaymentSetupImageManifestURLV3": "https://smp-device-content.apple.com/static/hero/v3/heroManifest_V3-3d11e8fa-170c-44aa-b51a-7d1b25561f97.json",
       "FindWithoutNumberEnabled": false,
       "SupportsV3": true,
@@ -914,8 +929,8 @@
       "serverURL": "https://smp-device.apple.com/broker",
       "ServerControlledProvisioningEnabled": true,
       "CameraFirstProvisioningEnabled": true,
-      "PaymentSetupFeaturedNetworks": [3, 4, 15],
-      "PaymentSetupFeaturedNetworksV3": ["MasterCard", "Visa", "Maestro"],
+      "PaymentSetupFeaturedNetworks": [3, 4, 15, 21],
+      "PaymentSetupFeaturedNetworksV3": ["MasterCard", "Visa", "Maestro", "Bancontact"],
       "PaymentSetupImageManifestURLV3": "https://smp-device-content.apple.com/static/hero/v3/heroManifest_V3-3d11e8fa-170c-44aa-b51a-7d1b25561f97.json",
       "FindWithoutNumberEnabled": false,
       "SupportsV3": true,
@@ -1330,8 +1345,8 @@
     },
     "CN": {
       "BuddyManualProvisioningEnabled": true,
-      "BuddyProvisioningEnabled": true,
       "BrowseProvisioningBankAppsEnabled": true,
+      "BuddyProvisioningEnabled": true,
       "DeviceCheckInDisabled": true,
       "ManualProvisioningEnabled": true,
       "serverURL": "https://cn-smp-device.apple.com/broker",
@@ -1359,51 +1374,6 @@
       "DiscoveryManifestURL": "https://smp-device-content.apple.com/static/discovery/v1/manifest.json",
       "minimumOSVersion": {
         "Mac": "99"
-      },
-      "features": {
-        "sharing": {
-          "activationCodeConfigurations": [
-            {
-              "accessPassType": "car",
-              "channelBundleIdentifier": "com.apple.SMS",
-              "trustLevel": "blocked",
-              "channelRiskLevel": "high",
-              "versionRange": {
-                "maximum": {
-                  "iPhone": "16.1"
-                }
-              }
-            },
-            {
-              "accessPassType": "car",
-              "channelBundleIdentifier": "com.apple.SMS",
-              "trustLevel": "blocked",
-              "channelRiskLevel": "medium",
-              "versionRange": {
-                "maximum": {
-                  "iPhone": "16.1"
-                }
-              }
-            },
-            {
-              "accessPassType": "car",
-              "allowedSharingChannels": [
-                "com.apple.UIKit.activity.Message"
-              ],
-              "versionRange": {
-                "maximum": {
-                  "iPhone": "16.1"
-                }
-              }
-            }
-          ],
-          "enabled": true,
-          "relayServerHostsToHandleUniversalLinks": [
-            "walletshare.googleapis.com",
-            "staging-walletshare.sandbox.googleapis.com"
-          ],
-          "relayServerHost": "qa-wallet.apple.com.cn"
-        }
       }
     },
     "DE": {
