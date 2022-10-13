@@ -1359,51 +1359,6 @@
       "DiscoveryManifestURL": "https://smp-device-content.apple.com/static/discovery/v1/manifest.json",
       "minimumOSVersion": {
         "Mac": "99"
-      },
-      "features": {
-        "sharing": {
-          "activationCodeConfigurations": [
-            {
-              "accessPassType": "car",
-              "channelBundleIdentifier": "com.apple.SMS",
-              "trustLevel": "blocked",
-              "channelRiskLevel": "high",
-              "versionRange": {
-                "maximum": {
-                  "iPhone": "16.1"
-                }
-              }
-            },
-            {
-              "accessPassType": "car",
-              "channelBundleIdentifier": "com.apple.SMS",
-              "trustLevel": "blocked",
-              "channelRiskLevel": "medium",
-              "versionRange": {
-                "maximum": {
-                  "iPhone": "16.1"
-                }
-              }
-            },
-            {
-              "accessPassType": "car",
-              "allowedSharingChannels": [
-                "com.apple.UIKit.activity.Message"
-              ],
-              "versionRange": {
-                "maximum": {
-                  "iPhone": "16.1"
-                }
-              }
-            }
-          ],
-          "enabled": true,
-          "relayServerHostsToHandleUniversalLinks": [
-            "walletshare.googleapis.com",
-            "staging-walletshare.sandbox.googleapis.com"
-          ],
-          "relayServerHost": "qa-wallet.apple.com.cn"
-        }
       }
     },
     "DE": {
@@ -1726,6 +1681,12 @@
       "activationCodeConfigurations": [
         {
           "accessPassType": "car",
+          "channelBundleIdentifier": "com.apple.UIKit.activity.AirDrop",
+          "trustLevel": "blocked",
+          "channelRiskLevel": "medium"
+        },
+        {
+          "accessPassType": "car",
           "channelBundleIdentifier": "com.apple.SMS",
           "trustLevel": "blocked",
           "channelRiskLevel": "high",
@@ -2035,15 +1996,15 @@
                 "submissionValue": "VI"
               },
               {
-                "displayName": "U.S. Armed Forces – Americas",
+                "displayName": "U.S. Armed Forces â€“ Americas",
                 "submissionValue": "AA"
               },
               {
-                "displayName": "U.S. Armed Forces – Europe",
+                "displayName": "U.S. Armed Forces â€“ Europe",
                 "submissionValue": "AE"
               },
               {
-                "displayName": "U.S. Armed Forces – Pacific",
+                "displayName": "U.S. Armed Forces â€“ Pacific",
                 "submissionValue": "AP"
               }
             ]
