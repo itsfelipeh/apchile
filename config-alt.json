@@ -1516,7 +1516,7 @@
           "Mac": "13.0"
         }
       },
-      "credentialTypesRequiringDPANNotifications": [1,2,3,4]
+      "credentialTypesRequiringDPANNotifications": [3,4]
     },
     "mmor": {
       "versionRange": {
@@ -1530,6 +1530,17 @@
         }
       },
       "implicitFeatureSupportedNetworks": [2, 4]
+    },
+    "shastaLiveOn": {
+      "walletMerchantId": "com.apple.pay.tokens.merchant.id.wallet",
+      "implicitFeatureSupportedNetworks": [2],
+      "versionRange": {
+        "minimum": {
+          "iPhone": "16.2",
+          "iPad": "16.2",
+          "Mac": "13.1"
+        }
+      }
     },
     "pushProvisioning": {
       "enablementThreshold": 1,
@@ -1996,15 +2007,15 @@
                 "submissionValue": "VI"
               },
               {
-                "displayName": "U.S. Armed Forces â€“ Americas",
+                "displayName": "U.S. Armed Forces – Americas",
                 "submissionValue": "AA"
               },
               {
-                "displayName": "U.S. Armed Forces â€“ Europe",
+                "displayName": "U.S. Armed Forces – Europe",
                 "submissionValue": "AE"
               },
               {
-                "displayName": "U.S. Armed Forces â€“ Pacific",
+                "displayName": "U.S. Armed Forces – Pacific",
                 "submissionValue": "AP"
               }
             ]
