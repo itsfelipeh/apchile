@@ -522,7 +522,7 @@
       "PaymentSetupFeaturedNetworksV2": ["AmEx", "MasterCard", "Visa", "JCB", "Suica", "PASMO"],
       "PaymentSetupPrimaryFeaturedNetworkV2": "Suica",
       "FindWithoutNumberEnabled": false,
-      "PaymentSetupBrowsableProductTypes": ["transit", "eMoney"],
+      "PaymentSetupBrowsableProductTypes": ["transit"],
       "PaymentSetupImageManifestURL": "https://smp-device-content.apple.com/static/hero/JP_heroManifest-79445b3e-ab99-42d2-9002-edeed59a11d2.json",
       "PaymentSetupImageManifestURLV2": "https://smp-device-content.apple.com/static/hero/v2/heroManifest-prod-34c9c532-1e7d-456b-8f1b-46cd1d00c4c6.json",
       "SupportsV3": true,
@@ -2007,15 +2007,15 @@
                 "submissionValue": "VI"
               },
               {
-                "displayName": "U.S. Armed Forces – Americas",
+                "displayName": "U.S. Armed Forces â€“ Americas",
                 "submissionValue": "AA"
               },
               {
-                "displayName": "U.S. Armed Forces – Europe",
+                "displayName": "U.S. Armed Forces â€“ Europe",
                 "submissionValue": "AE"
               },
               {
-                "displayName": "U.S. Armed Forces – Pacific",
+                "displayName": "U.S. Armed Forces â€“ Pacific",
                 "submissionValue": "AP"
               }
             ]
