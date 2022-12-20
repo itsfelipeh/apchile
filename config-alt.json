@@ -1546,7 +1546,7 @@
           "Mac": "13.0"
         }
       },
-      "credentialTypesRequiringDPANNotifications": [3,4]
+      "credentialTypesRequiringDPANNotifications": [4]
     },
     "mmor": {
       "versionRange": {
