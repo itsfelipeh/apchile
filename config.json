@@ -1576,6 +1576,17 @@
       },
       "implicitFeatureSupportedNetworks": [2, 4]
     },
+    "virtualCard": {
+      "walletMerchantId": "com.apple.pay.tokens.merchant.id.wallet",
+      "implicitFeatureSupportedNetworks": [2],
+      "versionRange": {
+        "minimum": {
+          "iPhone": "16.4",
+          "iPad": "16.4",
+          "Mac": "13.3"
+        }
+      }
+    },
     "shastaLiveOn": {
       "walletMerchantId": "com.apple.pay.tokens.merchant.id.wallet",
       "implicitFeatureSupportedNetworks": [2],
@@ -2278,4 +2289,4 @@
       }
     }
   }
-}  
+}
