@@ -2052,15 +2052,15 @@
                 "submissionValue": "VI"
               },
               {
-                "displayName": "U.S. Armed Forces â€“ Americas",
+                "displayName": "U.S. Armed Forces – Americas",
                 "submissionValue": "AA"
               },
               {
-                "displayName": "U.S. Armed Forces â€“ Europe",
+                "displayName": "U.S. Armed Forces – Europe",
                 "submissionValue": "AE"
               },
               {
-                "displayName": "U.S. Armed Forces â€“ Pacific",
+                "displayName": "U.S. Armed Forces – Pacific",
                 "submissionValue": "AP"
               }
             ]
@@ -2278,4 +2278,4 @@
       }
     }
   }
-}
+}  
