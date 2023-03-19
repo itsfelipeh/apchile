@@ -1621,7 +1621,8 @@
         "170": "GENE",
         "171": "HYUN",
         "172": "KIA1",
-        "073": "BYD1"
+        "073": "BYD1",
+        "129": "TS01"
       },
       "versionRange": {
         "minimum": {
@@ -1738,6 +1739,27 @@
                 "010704",
                 "010705",
                 "010706"
+              ]
+            }
+          ]
+        },
+        {
+          "associatedApplicationIdentifiers": [
+            "1595046501"
+          ],
+          "partnerIdentifier": "TS01",
+          "manufacturerIdentifier": "TS01",
+          "partnerName": "DENZA",
+          "terminalCriteria": [
+            {
+              "type": "ecp.2.tci",
+              "tcis": [
+                "010241",
+                "010242",
+                "010243",
+                "010244",
+                "010245",
+                "010246"
               ]
             }
           ]
@@ -2063,15 +2085,15 @@
                 "submissionValue": "VI"
               },
               {
-                "displayName": "U.S. Armed Forces – Americas",
+                "displayName": "U.S. Armed Forces â€“ Americas",
                 "submissionValue": "AA"
               },
               {
-                "displayName": "U.S. Armed Forces – Europe",
+                "displayName": "U.S. Armed Forces â€“ Europe",
                 "submissionValue": "AE"
               },
               {
-                "displayName": "U.S. Armed Forces – Pacific",
+                "displayName": "U.S. Armed Forces â€“ Pacific",
                 "submissionValue": "AP"
               }
             ]
