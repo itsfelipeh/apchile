@@ -1,3 +1,4 @@
+
 {
   "SupportedRegions": {
     "US": {
@@ -1578,17 +1579,6 @@
       },
       "implicitFeatureSupportedNetworks": [2, 4]
     },
-    "virtualCard": {
-      "walletMerchantId": "com.apple.pay.tokens.merchant.id.wallet",
-      "implicitFeatureSupportedNetworks": [2],
-      "versionRange": {
-        "minimum": {
-          "iPhone": "16.4",
-          "iPad": "16.4",
-          "Mac": "13.3"
-        }
-      }
-    },
     "shastaLiveOn": {
       "walletMerchantId": "com.apple.pay.tokens.merchant.id.wallet",
       "implicitFeatureSupportedNetworks": [2],
@@ -2087,15 +2077,15 @@
                 "submissionValue": "VI"
               },
               {
-                "displayName": "U.S. Armed Forces – Americas",
+                "displayName": "U.S. Armed Forces â€“ Americas",
                 "submissionValue": "AA"
               },
               {
-                "displayName": "U.S. Armed Forces – Europe",
+                "displayName": "U.S. Armed Forces â€“ Europe",
                 "submissionValue": "AE"
               },
               {
-                "displayName": "U.S. Armed Forces – Pacific",
+                "displayName": "U.S. Armed Forces â€“ Pacific",
                 "submissionValue": "AP"
               }
             ]
@@ -2313,4 +2303,3 @@
       }
     }
   }
-}
