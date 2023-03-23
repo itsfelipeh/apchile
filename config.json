@@ -1529,6 +1529,23 @@
       "PaymentServicesURL": "https://smp-paymentservices.apple.com/paymentservices",
       "PaymentServicesMerchantURL": "https://apple-pay-gateway.apple.com/paymentservices"
     },
+    "KR": {
+      "BuddyManualProvisioningEnabled": true,
+      "BrowseProvisioningBankAppsEnabled": true,
+      "BuddyProvisioningEnabled": true,
+      "ManualProvisioningEnabled": true,
+      "serverURL": "https://smp-device.apple.com/broker",
+      "ServerControlledProvisioningEnabled": true,
+      "CameraFirstProvisioningEnabled": true,
+      "PaymentSetupFeaturedNetworks": [3, 4],
+      "PaymentSetupFeaturedNetworksV3": ["MasterCard", "Visa"],
+      "PaymentSetupImageManifestURLV3": "https://smp-device-content.apple.com/static/hero/v3/heroManifest_V3-3d11e8fa-170c-44aa-b51a-7d1b25561f97.json",
+      "FindWithoutNumberEnabled": false,
+      "SupportsV3": true,
+      "PaymentServicesURL": "https://smp-paymentservices.apple.com/paymentservices",
+      "PaymentServicesMerchantURL": "https://apple-pay-gateway.apple.com/paymentservices",
+      "DiscoveryManifestURL": "https://smp-device-content.apple.com/static/discovery/v1/manifest.json"
+    },
     "paymentpass.com.apple.cn" : {
       "DeviceCheckInDisabled": true
     }
@@ -1575,17 +1592,6 @@
         }
       },
       "implicitFeatureSupportedNetworks": [2, 4]
-    },
-    "virtualCard": {
-      "walletMerchantId": "com.apple.pay.tokens.merchant.id.wallet",
-      "implicitFeatureSupportedNetworks": [2],
-      "versionRange": {
-        "minimum": {
-          "iPhone": "16.4",
-          "iPad": "16.4",
-          "Mac": "13.3"
-        }
-      }
     },
     "shastaLiveOn": {
       "walletMerchantId": "com.apple.pay.tokens.merchant.id.wallet",
