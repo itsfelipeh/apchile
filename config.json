@@ -1,4 +1,4 @@
-
+{
   "SupportedRegions": {
     "US": {
       "BuddyManualProvisioningEnabled": true,
@@ -2318,6 +2318,3 @@
     }
   }
 }
-
-</body>
-</html>
