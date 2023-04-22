@@ -1628,7 +1628,8 @@
         "171": "HYUN",
         "172": "KIA1",
         "073": "BYD1",
-        "129": "TS01"
+        "129": "TS01",
+        "099": "LOT1"
       },
       "versionRange": {
         "minimum": {
@@ -1766,6 +1767,27 @@
                 "010244",
                 "010245",
                 "010246"
+              ]
+            }
+          ]
+        },
+        {
+          "associatedApplicationIdentifiers": [
+            "1585765064"
+          ],
+          "partnerIdentifier": "LOT1",
+          "manufacturerIdentifier": "LTUS",
+          "partnerName": "Lotus",
+          "terminalCriteria": [
+            {
+              "type": "ecp.2.tci",
+              "tcis": [
+                "010091",
+                "010092",
+                "010093",
+                "010094",
+                "010095",
+                "010096"
               ]
             }
           ]
