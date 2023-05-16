@@ -1499,6 +1499,36 @@
       "PaymentServicesURL": "https://smp-paymentservices.apple.com/paymentservices",
       "PaymentServicesMerchantURL": "https://apple-pay-gateway.apple.com/paymentservices"
     },
+    "HN": {
+      "BuddyManualProvisioningEnabled": true,
+      "BuddyProvisioningEnabled": true,
+      "ManualProvisioningEnabled": true,
+      "serverURL": "https://smp-device.apple.com/broker",
+      "ServerControlledProvisioningEnabled": true,
+      "CameraFirstProvisioningEnabled": true,
+      "PaymentSetupFeaturedNetworks": [1, 3, 4],
+      "PaymentSetupFeaturedNetworksV3": ["AmEx", "MasterCard", "Visa"],
+      "PaymentSetupImageManifestURLV3": "https://smp-device-content.apple.com/static/hero/v3/heroManifest_V3-3d11e8fa-170c-44aa-b51a-7d1b25561f97.json",
+      "FindWithoutNumberEnabled": false,
+      "SupportsV3": true,
+      "PaymentServicesURL": "https://smp-paymentservices.apple.com/paymentservices",
+      "PaymentServicesMerchantURL": "https://apple-pay-gateway.apple.com/paymentservices"
+    },
+    "PA": {
+      "BuddyManualProvisioningEnabled": true,
+      "BuddyProvisioningEnabled": true,
+      "ManualProvisioningEnabled": true,
+      "serverURL": "https://smp-device.apple.com/broker",
+      "ServerControlledProvisioningEnabled": true,
+      "CameraFirstProvisioningEnabled": true,
+      "PaymentSetupFeaturedNetworks": [1, 3, 4],
+      "PaymentSetupFeaturedNetworksV3": ["AmEx", "MasterCard", "Visa"],
+      "PaymentSetupImageManifestURLV3": "https://smp-device-content.apple.com/static/hero/v3/heroManifest_V3-3d11e8fa-170c-44aa-b51a-7d1b25561f97.json",
+      "FindWithoutNumberEnabled": false,
+      "SupportsV3": true,
+      "PaymentServicesURL": "https://smp-paymentservices.apple.com/paymentservices",
+      "PaymentServicesMerchantURL": "https://apple-pay-gateway.apple.com/paymentservices"
+    },
     "ZA": {
       "BuddyManualProvisioningEnabled": true,
       "BuddyProvisioningEnabled": true,
@@ -2143,15 +2173,15 @@
                 "submissionValue": "VI"
               },
               {
-                "displayName": "U.S. Armed Forces â€“ Americas",
+                "displayName": "U.S. Armed Forces – Americas",
                 "submissionValue": "AA"
               },
               {
-                "displayName": "U.S. Armed Forces â€“ Europe",
+                "displayName": "U.S. Armed Forces – Europe",
                 "submissionValue": "AE"
               },
               {
-                "displayName": "U.S. Armed Forces â€“ Pacific",
+                "displayName": "U.S. Armed Forces – Pacific",
                 "submissionValue": "AP"
               }
             ]
