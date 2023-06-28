@@ -534,7 +534,15 @@
       "SupportsV3": true,
       "PaymentServicesURL": "https://smp-paymentservices.apple.com/paymentservices",
       "PaymentServicesMerchantURL": "https://apple-pay-gateway.apple.com/paymentservices",
-      "DiscoveryManifestURL": "https://smp-device-content.apple.com/static/discovery/v1/manifest.json"
+      "DiscoveryManifestURL": "https://smp-device-content.apple.com/static/discovery/v1/manifest.json",
+      "accountServiceEnabled": true,
+      "applyServiceEnabled": true,
+      "applyServiceFeatures": {
+        "asp": {
+          "enablementThreshold": 1
+        }
+      },
+      "applyServiceFeatureIdentifiers": ["asp"]
     },
     "ES": {
       "BuddyManualProvisioningEnabled": true,
@@ -2192,15 +2200,15 @@
                 "submissionValue": "VI"
               },
               {
-                "displayName": "U.S. Armed Forces â€“ Americas",
+                "displayName": "U.S. Armed Forces – Americas",
                 "submissionValue": "AA"
               },
               {
-                "displayName": "U.S. Armed Forces â€“ Europe",
+                "displayName": "U.S. Armed Forces – Europe",
                 "submissionValue": "AE"
               },
               {
-                "displayName": "U.S. Armed Forces â€“ Pacific",
+                "displayName": "U.S. Armed Forces – Pacific",
                 "submissionValue": "AP"
               }
             ]
