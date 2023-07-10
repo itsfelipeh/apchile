@@ -1663,6 +1663,15 @@
       },
       "implicitFeatureSupportedNetworks": [2, 4]
     },
+    "torino": {
+      "versionRange": {
+        "minimum": {
+          "iPhone": "17.0",
+          "iPad": "17.0"
+        }
+      },
+      "implicitFeatureSupportedNetworks": [4]
+    },
     "shastaLiveOn": {
       "walletMerchantId": "com.apple.pay.tokens.merchant.id.wallet",
       "implicitFeatureSupportedNetworks": [2],
