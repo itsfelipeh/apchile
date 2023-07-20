@@ -1609,8 +1609,8 @@
     "torino": {
       "versionRange": {
         "minimum": {
-          "iPhone": "17.0",
-          "iPad": "17.0"
+          "iPhone": "16.2",
+          "iPad": "16.2"
         }
       },
       "implicitFeatureSupportedNetworks": [4]
