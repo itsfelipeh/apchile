@@ -1383,6 +1383,58 @@
       "DiscoveryManifestURL": "https://smp-device-content.apple.com/static/discovery/v1/manifest.json",
       "minimumOSVersion": {
         "Mac": "99"
+      },
+      "features": {
+        "sharing": {
+          "activationCodeConfigurations": [
+            {
+              "accessPassType": "car",
+              "channelBundleIdentifier": "com.apple.UIKit.activity.AirDrop",
+              "trustLevel": "blocked",
+              "channelRiskLevel": "medium"
+            },
+            {
+              "accessPassType": "car",
+              "channelBundleIdentifier": "com.apple.SMS",
+              "trustLevel": "blocked",
+              "channelRiskLevel": "high",
+              "versionRange": {
+                "maximum": {
+                  "iPhone": "16.1"
+                }
+              }
+            },
+            {
+              "accessPassType": "car",
+              "channelBundleIdentifier": "com.apple.SMS",
+              "trustLevel": "blocked",
+              "channelRiskLevel": "medium",
+              "versionRange": {
+                "maximum": {
+                  "iPhone": "16.1"
+                }
+              }
+            },
+            {
+              "accessPassType": "car",
+              "allowedSharingChannels": [
+                "com.apple.UIKit.activity.Message"
+              ],
+              "versionRange": {
+                "maximum": {
+                  "iPhone": "16.1"
+                }
+              }
+            }
+          ],
+          "enabled": true,
+          "relayServerHostsToHandleUniversalLinks": [
+            "walletshare.googleapis.com",
+            "staging-walletshare.sandbox.googleapis.com",
+            "cert-wallet.apple.com.cn"
+          ],
+          "relayServerHost": "wallet.apple.com.cn"
+        }
       }
     },
     "DE": {
