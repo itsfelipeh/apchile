@@ -1431,7 +1431,8 @@
           "relayServerHostsToHandleUniversalLinks": [
             "walletshare.googleapis.com",
             "staging-walletshare.sandbox.googleapis.com",
-            "cert-wallet.apple.com.cn"
+            "cert-wallet.apple.com.cn",
+            "wallet.apple.com.cn"
           ],
           "relayServerHost": "wallet.apple.com.cn"
         }
@@ -2006,11 +2007,12 @@
       "enabled": true,
       "relayServerHostsToHandleUniversalLinks": [
         "walletshare.googleapis.com",
-        "staging-walletshare.sandbox.googleapis.com"
+        "staging-walletshare.sandbox.googleapis.com",
+        "wallet.apple.com.cn"
       ]
     }
   },
-  "credentialTypesRequiringMetadata": ["103", "105", "106", "107", "108", "109", "113", "114", "115", "116", "117", "122", "123", "127", "128","132"],
+  "credentialTypesRequiringMetadata": ["103", "105", "106", "107", "108", "109", "113", "114", "115", "116", "117", "122", "123", "127", "128","132", "136"],
   "MarketGeosURL": "https://smp-device-content.apple.com/static/region/v2/marketgeos-ad96b072-bd96-4d3c-aff6-6cc477f0d88a.json",
   "version": "2.0",
   "contactFormatConfiguration": {
