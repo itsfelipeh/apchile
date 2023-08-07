@@ -1431,7 +1431,7 @@
           "relayServerHostsToHandleUniversalLinks": [
             "walletshare.googleapis.com",
             "staging-walletshare.sandbox.googleapis.com",
-            "cert-wallet.apple.com.cn",
+            "wallet.apple.com",
             "wallet.apple.com.cn"
           ],
           "relayServerHost": "wallet.apple.com.cn"
@@ -2008,6 +2008,7 @@
       "relayServerHostsToHandleUniversalLinks": [
         "walletshare.googleapis.com",
         "staging-walletshare.sandbox.googleapis.com",
+        "wallet.apple.com",
         "wallet.apple.com.cn"
       ]
     }
