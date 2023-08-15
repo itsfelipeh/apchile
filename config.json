@@ -1740,6 +1740,10 @@
     }
   ],
   "globalFeatures": {
+    "cdnDataSource": {
+      "staticContentURL": "https://wallet.cdn-apple.com/broker",
+      "enabled": true
+    },
     "zion": {
       "versionRange": {
         "minimum": {
