@@ -1816,6 +1816,7 @@
         "172": "KIA1",
         "073": "BYD1",
         "129": "TS01",
+        "134": "YW01",
         "099": "LOT1"
       },
       "versionRange": {
@@ -1970,6 +1971,27 @@
                 "010244",
                 "010245",
                 "010246"
+              ]
+            }
+          ]
+        },
+        {
+          "associatedApplicationIdentifiers": [
+            "1659402296"
+          ],
+          "partnerIdentifier": "YW01",
+          "manufacturerIdentifier": "YW01",
+          "partnerName": "YW",
+          "terminalCriteria": [
+            {
+              "type": "ecp.2.tci",
+              "tcis": [
+                "0102B1",
+                "0102B2",
+                "0102B3",
+                "0102B4",
+                "0102B5",
+                "0102B6"
               ]
             }
           ]
