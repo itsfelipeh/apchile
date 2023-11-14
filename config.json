@@ -1817,6 +1817,7 @@
         "073": "BYD1",
         "129": "TS01",
         "134": "YW01",
+        "258": "GC01",
         "099": "LOT1"
       },
       "versionRange": {
@@ -1992,6 +1993,27 @@
                 "0102B4",
                 "0102B5",
                 "0102B6"
+              ]
+            }
+          ]
+        },
+        {
+          "associatedApplicationIdentifiers": [
+            "6449927254"
+          ],
+          "partnerIdentifier": "GC01",
+          "manufacturerIdentifier": "GC01",
+          "partnerName": "FCB",
+          "terminalCriteria": [
+            {
+              "type": "ecp.2.tci",
+              "tcis": [
+                "0102D1",
+                "0102D2",
+                "0102D3",
+                "0102D4",
+                "0102D5",
+                "0102D6"
               ]
             }
           ]
