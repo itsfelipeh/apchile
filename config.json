@@ -1811,6 +1811,7 @@
       "brandIdentifiers": {
         "002": "BMW1",
         "0003": "MBCS",
+        "004": "MINI",
         "170": "GENE",
         "171": "HYUN",
         "172": "KIA1",
@@ -1844,6 +1845,34 @@
         "partnerIdentifier": "BMW1",
         "manufacturerIdentifier": "BMW1",
         "partnerName": "BMW",
+        "terminalCriteria": [{
+          "type": "ecp.2.tci",
+          "tcis": [
+            "010001",
+            "010002",
+            "010003"
+          ]
+        }]
+      },
+      {
+        "associatedApplicationIdentifiers": [
+          "1519459056",
+          "1522601170",
+          "1519458349",
+          "1542981166",
+          "1567588276",
+          "1087277146",
+          "1099848339",
+          "1120208127",
+          "1522361512",
+          "1567587877",
+          "1519457734",
+          "1519034860",
+          "1527576076"
+        ],
+        "partnerIdentifier": "MINI",
+        "manufacturerIdentifier": "BMW1",
+        "partnerName": "MINI",
         "terminalCriteria": [{
           "type": "ecp.2.tci",
           "tcis": [
