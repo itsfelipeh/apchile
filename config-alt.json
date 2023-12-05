@@ -618,6 +618,7 @@
     "TW": {
       "BuddyManualProvisioningEnabled": true,
       "BuddyProvisioningEnabled": true,
+      "BrowseProvisioningBankAppsEnabled": true,
       "ManualProvisioningEnabled": true,
       "serverURL": "https://smp-device.apple.com/broker",
       "ServerControlledProvisioningEnabled": true,
