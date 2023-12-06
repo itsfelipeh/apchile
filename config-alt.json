@@ -1635,12 +1635,25 @@
     },
     "shastaLiveOn": {
       "walletMerchantId": "com.apple.pay.tokens.merchant.id.wallet",
-      "implicitFeatureSupportedNetworks": [2],
       "versionRange": {
         "minimum": {
-          "iPhone": "16.2",
-          "iPad": "16.2",
-          "Mac": "13.1"
+          "iPhone": "17.4",
+          "iPad": "17.4",
+          "Mac": "99.0"
+        }
+      },
+      "cashVPAN": {
+        "networksMinimumVersion": {
+          "4": {
+            "implicitlySupported": true,
+            "versionRange": {
+              "minimum": {
+                "iPhone": "17.4",
+                "iPad": "17.4",
+                "Mac": "99.0"
+              }
+            }
+          }
         }
       }
     },
