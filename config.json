@@ -1780,7 +1780,7 @@
       },
       "implicitFeatureSupportedNetworks": [4]
     },
-    "shastaLiveOn": {
+    "shasta": {
       "walletMerchantId": "com.apple.pay.tokens.merchant.id.wallet",
       "versionRange": {
         "minimum": {
