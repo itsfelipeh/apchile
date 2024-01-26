@@ -37,7 +37,7 @@
           "enablementThreshold": 1
         }
       },
-      "DiscoveryManifestURL": "https://smp-device-content.apple.com/static/discovery/v1/manifest.json"
+      "DiscoveryManifestURL": "https://smp-device-content.apple.com/static/cert/discovery/v1/manifest.json"
     },
     "AZ": {
       "BuddyManualProvisioningEnabled": true,
@@ -161,7 +161,7 @@
       "ServerControlledProvisioningEnabled": true,
       "CameraFirstProvisioningEnabled": true,
       "PaymentSetupFeaturedNetworks": [1, 3, 4, 22],
-      "PaymentSetupFeaturedNetworksV3": ["AmEx", "MasterCard", "Visa", "PostFinanceAG"],
+      "PaymentSetupFeaturedNetworksV3": ["AmEx", "MasterCard", "Visa"],
       "PaymentSetupImageManifestURLV3": "https://smp-device-content.apple.com/static/hero/v3/heroManifest_V3-3d11e8fa-170c-44aa-b51a-7d1b25561f97.json",
       "FindWithoutNumberEnabled": false,
       "SupportsV3": true,
@@ -487,12 +487,7 @@
       "serverURL": "https://smp-device.apple.com/broker",
       "CameraFirstProvisioningEnabled": true,
       "PaymentSetupFeaturedNetworks": [3,4,19],
-      "MarketGeoRegionNotificationNetworkThresholds": {
-        "3": 1,
-        "4": 1
-       },
-      "MarketGeoRegionNotificationDisabledNetworks": [],
-      "PaymentSetupFeaturedNetworksV3": ["MasterCard", "Visa","Mir"],
+      "PaymentSetupFeaturedNetworksV3": ["MasterCard", "Visa", "Mir"],
       "PaymentSetupImageManifestURLV3": "https://smp-device-content.apple.com/static/hero/v3/heroManifest_V3-3d11e8fa-170c-44aa-b51a-7d1b25561f97.json",
       "FindWithoutNumberEnabled": false,
       "SupportsV3": true,
@@ -708,11 +703,6 @@
       "CameraFirstProvisioningEnabled": true,
       "PaymentSetupFeaturedNetworks": [1, 3, 4],
       "PaymentSetupFeaturedNetworksV3": ["AmEx", "MasterCard", "Visa"],
-      "MarketGeoRegionNotificationNetworkThresholds": {
-        "3": 1,
-        "4": 1
-      },
-      "MarketGeoRegionNotificationDisabledNetworks": [],
       "PaymentSetupImageManifestURLV3": "https://smp-device-content.apple.com/static/hero/v3/heroManifest_V3-3d11e8fa-170c-44aa-b51a-7d1b25561f97.json",
       "FindWithoutNumberEnabled": false,
       "SupportsV3": true,
@@ -923,7 +913,7 @@
       "ServerControlledProvisioningEnabled": true,
       "CameraFirstProvisioningEnabled": true,
       "PaymentSetupFeaturedNetworks": [1, 3, 4],
-      "PaymentSetupFeaturedNetworksV3": ["AmEx","MasterCard", "Visa"],
+      "PaymentSetupFeaturedNetworksV3": ["AmEx", "MasterCard", "Visa"],
       "PaymentSetupImageManifestURLV3": "https://smp-device-content.apple.com/static/hero/v3/heroManifest_V3-3d11e8fa-170c-44aa-b51a-7d1b25561f97.json",
       "FindWithoutNumberEnabled": false,
       "SupportsV3": true,
@@ -1355,8 +1345,8 @@
     },
     "CN": {
       "BuddyManualProvisioningEnabled": true,
-      "BrowseProvisioningBankAppsEnabled": true,
       "BuddyProvisioningEnabled": true,
+      "BrowseProvisioningBankAppsEnabled": true,
       "DeviceCheckInDisabled": true,
       "ManualProvisioningEnabled": true,
       "serverURL": "https://cn-smp-device.apple.com/broker",
@@ -1780,7 +1770,7 @@
       },
       "implicitFeatureSupportedNetworks": [4]
     },
-    "shastaLiveOn": {
+    "shasta": {
       "walletMerchantId": "com.apple.pay.tokens.merchant.id.wallet",
       "versionRange": {
         "minimum": {
@@ -1824,7 +1814,7 @@
       "registrationType": "lightweight",
       "brandIdentifiers": {
         "002": "BMW1",
-        "0003": "MBCS",
+        "003": "MBCS",
         "004": "MINI",
         "170": "GENE",
         "171": "HYUN",
@@ -1896,7 +1886,7 @@
           ]
         }]
       },
-        {
+      {
         "associatedApplicationIdentifier": "",
         "manufacturerIdentifier": "MBAG",
         "partnerIdentifier": "MBCS",
@@ -2135,7 +2125,7 @@
       ]
     }
   },
-  "credentialTypesRequiringMetadata": ["103", "105", "106", "107", "108", "109", "113", "114", "115", "116", "117", "122", "123", "127", "128", "131","132", "136"],
+  "credentialTypesRequiringMetadata": ["103", "105", "106", "107", "108", "109", "113", "114", "115", "116", "117", "122", "123", "127", "128","132", "136"],
   "MarketGeosURL": "https://smp-device-content.apple.com/static/region/v2/marketgeos-ad96b072-bd96-4d3c-aff6-6cc477f0d88a.json",
   "version": "2.0",
   "contactFormatConfiguration": {
