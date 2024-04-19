@@ -2602,6 +2602,7 @@
             ],
             "isValidCharacterSet": true
           },
+          
           "city": {
             "type": "text",
             "minLength": 1,
