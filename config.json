@@ -1760,7 +1760,7 @@
       "staticContentURL": "https://wallet.cdn-apple.com/broker",
       "enabled": true
     },
-    "zion": {
+    "merchantTokens": {
       "versionRange": {
         "minimum": {
           "iPhone": "16.0",
@@ -1773,7 +1773,7 @@
       },
       "credentialTypesRequiringDPANNotifications": [4]
     },
-    "mmor": {
+    "multiTokens": {
       "versionRange": {
         "minimum": {
           "iPhone": "16.0",
