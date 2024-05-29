@@ -1735,7 +1735,7 @@
       "staticContentURL": "https://wallet.cdn-apple.com/broker",
       "enabled": true
     },
-    "zion": {
+    "merchantTokens": {
       "versionRange": {
         "minimum": {
           "iPhone": "16.0",
@@ -1748,7 +1748,7 @@
       },
       "credentialTypesRequiringDPANNotifications": [4]
     },
-    "mmor": {
+    "multiTokens": {
       "versionRange": {
         "minimum": {
           "iPhone": "16.0",
@@ -2126,7 +2126,7 @@
     }
   },
   "credentialTypesRequiringMetadata": ["103", "105", "106", "107", "108", "109", "113", "114", "115", "116", "117", "122", "123", "127", "128","132", "136"],
-  "MarketGeosURL": "https://smp-device-content.apple.com/static/region/v2/marketgeos-ad96b072-bd96-4d3c-aff6-6cc477f0d88a.json",
+  "MarketGeosURL": "https://static-content-device.apple.com/static/region/v2/marketgeos-ad96b072-bd96-4d3c-aff6-6cc477f0d88a.json",
   "version": "2.0",
   "contactFormatConfiguration": {
     "checkFormatOfPhoneNumber": true,
