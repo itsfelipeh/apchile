@@ -1912,7 +1912,10 @@
         }]
       },
         {
-        "associatedApplicationIdentifier": "",
+        "associatedApplicationIdentifier": [
+          "1487652920",
+          "1488075416"
+        ],
         "manufacturerIdentifier": "MBAG",
         "partnerIdentifier": "MBCS",
         "partnerName": "Mercedes-Benz",
