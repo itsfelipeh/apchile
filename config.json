@@ -1,6 +1,16 @@
 {
   "SupportedRegions": {
     "US": {
+      "features": {
+        "paymentOffers": {
+          "versionRange": {
+            "minimum": {
+              "iPhone": "18.0",
+              "iPad": "18.0"
+            }
+          }
+        }
+      },
       "BuddyManualProvisioningEnabled": true,
       "BuddyProvisioningEnabled": true,
       "ManualProvisioningEnabled": true,
@@ -72,6 +82,16 @@
       "PaymentServicesMerchantURL": "https://apple-pay-gateway.apple.com/paymentservices"
     },
     "GB": {
+      "features": {
+        "paymentOffers": {
+          "versionRange": {
+            "minimum": {
+              "iPhone": "18.0",
+              "iPad": "18.0"
+            }
+          }
+        }
+      },
       "BuddyManualProvisioningEnabled": true,
       "BuddyProvisioningEnabled": true,
       "ManualProvisioningEnabled": true,
