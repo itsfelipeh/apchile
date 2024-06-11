@@ -1721,6 +1721,7 @@
       "DeviceClasses": ["Mac"],
       "OSVersion": {
         "Mac": "99",
+        "visionOS": "1.2",
         "iOS": "11.2"
       },
       "HandoffMinOSVersion" : {
