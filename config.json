@@ -1453,9 +1453,13 @@
             "walletshare.googleapis.com",
             "staging-walletshare.sandbox.googleapis.com",
             "wallet.apple.com",
-            "wallet.apple.com.cn"
+            "wallet.apple.com.cn",
+            "digitalkey.vivo.com.cn"
           ],
-          "relayServerHost": "wallet.apple.com.cn"
+          "relayServerHostsToUseThirdPartyPushTopic": [
+            "digitalkey.vivo.com.cn"
+          ],
+          "relayServerHost": "wallet.apple.com.cn"         
         }
       }
     },
