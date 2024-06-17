@@ -1421,6 +1421,12 @@
           "enabled": true,
           "relayServerHostsToHandleUniversalLinks": [
             "walletshare.googleapis.com",
+            "smc2-emea-e2e.bmw.com",
+            "smc2-emea-prod.bmw.com",
+            "smc2-us-e2e.bmw.com",
+            "smc2-us-prod.bmw.com",
+            "dck-sharing-cn-e2e.bmw.com",
+            "dck-sharing-cn-prod.bmw.com",
             "staging-walletshare.sandbox.googleapis.com",
             "wallet.apple.com",
             "wallet.apple.com.cn"
@@ -2120,6 +2126,12 @@
       "enabled": true,
       "relayServerHostsToHandleUniversalLinks": [
         "walletshare.googleapis.com",
+        "smc2-emea-e2e.bmw.com",
+        "smc2-emea-prod.bmw.com",
+        "smc2-us-e2e.bmw.com",
+        "smc2-us-prod.bmw.com",
+        "dck-sharing-cn-e2e.bmw.com",
+        "dck-sharing-cn-prod.bmw.com",
         "staging-walletshare.sandbox.googleapis.com",
         "wallet.apple.com",
         "wallet.apple.com.cn"
