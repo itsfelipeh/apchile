@@ -1406,6 +1406,9 @@
         "Mac": "99"
       },
       "features": {
+        "remoteNetworkPayment": {
+          "enabled": false
+        },
         "sharing": {
           "activationCodeConfigurations": [
             {
