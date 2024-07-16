@@ -134,7 +134,15 @@
       "FindWithoutNumberEnabled": false,
       "PaymentSetupImageManifestURL": "https://smp-device-content.apple.com/static/hero/heroManifest-52782a36-44b8-479e-93bd-699f47fb40b9.json",
       "PaymentServicesURL": "https://smp-paymentservices.apple.com/paymentservices",
-      "PaymentServicesMerchantURL": "https://apple-pay-gateway.apple.com/paymentservices"
+      "PaymentServicesMerchantURL": "https://apple-pay-gateway.apple.com/paymentservices",
+      "accountServiceEnabled": true,
+      "applyServiceEnabled": true,
+      "applyServiceFeatures": {
+        "asp": {
+          "enablementThreshold": 1
+        }
+      },
+      "applyServiceFeatureIdentifiers": ["asp"]
     },
     "AU": {
       "BuddyManualProvisioningEnabled": true,
@@ -150,7 +158,15 @@
       "SupportsV3": true,
       "PaymentSetupImageManifestURL": "https://smp-device-content.apple.com/static/hero/heroManifest-52782a36-44b8-479e-93bd-699f47fb40b9.json",
       "PaymentServicesURL": "https://smp-paymentservices.apple.com/paymentservices",
-      "PaymentServicesMerchantURL": "https://apple-pay-gateway.apple.com/paymentservices"
+      "PaymentServicesMerchantURL": "https://apple-pay-gateway.apple.com/paymentservices",
+      "accountServiceEnabled": true,
+      "applyServiceEnabled": true,
+      "applyServiceFeatures": {
+        "asp": {
+          "enablementThreshold": 1
+        }
+      },
+      "applyServiceFeatureIdentifiers": ["asp"]
     },
     "SG": {
       "TapToProvisionEnabled": true,
