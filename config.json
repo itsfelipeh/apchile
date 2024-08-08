@@ -2009,7 +2009,8 @@
         "129": "TS01",
         "134": "YW01",
         "258": "GC01",
-        "099": "LOT1"
+        "099": "LOT1",
+        "098": "LYC1"
       },
       "versionRange": {
         "minimum": {
@@ -2257,6 +2258,27 @@
                 "010094",
                 "010095",
                 "010096"
+              ]
+            }
+          ]
+        },
+        {
+          "associatedApplicationIdentifiers": [
+            "1305517667"
+          ],
+          "partnerIdentifier": "LYC1",
+          "manufacturerIdentifier": "LYCO",
+          "partnerName": "LynkCo",
+          "terminalCriteria": [
+            {
+              "type": "ecp.2.tci",
+              "tcis": [
+                "0101A1",
+                "0101A2",
+                "0101A3",
+                "0101A4",
+                "0101A5",
+                "0101A6"
               ]
             }
           ]
