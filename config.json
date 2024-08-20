@@ -1539,10 +1539,12 @@
             "dk-fleet-us-prod.bmw.com",
             "dk-fleet-cn-e2e.bmw.com",
             "dk-fleet-cn-prod.bmw.com",
-            "digitalkey.vivo.com.cn"
+            "digitalkey.vivo.com.cn",
+            "ccc-relay.finzjr.com"
           ],
           "relayServerHostsToUseThirdPartyPushTopic": [
-            "digitalkey.vivo.com.cn"
+            "digitalkey.vivo.com.cn",
+            "ccc-relay.finzjr.com"
           ],
           "relayServerHost": "wallet.apple.com.cn"         
         }
@@ -2340,7 +2342,8 @@
         "staging-walletshare.sandbox.googleapis.com",
         "wallet.apple.com",
         "wallet.apple.com.cn",
-        "digitalkey.vivo.com.cn"
+        "digitalkey.vivo.com.cn",
+        "ccc-relay.finzjr.com"
       ]
     }
   },
