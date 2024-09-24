@@ -1887,6 +1887,28 @@
       "PaymentServicesURL": "https://smp-paymentservices.apple.com/paymentservices",
       "PaymentServicesMerchantURL": "https://apple-pay-gateway.apple.com/paymentservices"
     },
+    "OM": {
+      "BuddyManualProvisioningEnabled": true,
+      "BrowseProvisioningBankAppsEnabled": false,
+      "BuddyProvisioningEnabled": true,
+      "ManualProvisioningEnabled": true,
+      "serverURL": "https://smp-device.apple.com/broker",
+      "ServerControlledProvisioningEnabled": true,
+      "CameraFirstProvisioningEnabled": true,
+      "PaymentSetupFeaturedNetworks": [
+        3,
+        4
+      ],
+      "PaymentSetupFeaturedNetworksV3": [
+        "MasterCard",
+        "Visa"
+      ],
+      "PaymentSetupImageManifestURLV3": "https://smp-device-content.apple.com/static/hero/v3/heroManifest_V3-3d11e8fa-170c-44aa-b51a-7d1b25561f97.json",
+      "FindWithoutNumberEnabled": false,
+      "SupportsV3": true,
+      "PaymentServicesURL": "https://smp-paymentservices.apple.com/paymentservices",
+      "PaymentServicesMerchantURL": "https://apple-pay-gateway.apple.com/paymentservices"
+    },
     "paymentpass.com.apple.cn" : {
       "DeviceCheckInDisabled": true
     }
@@ -2002,7 +2024,8 @@
         "134": "YW01",
         "258": "GC01",
         "099": "LOT1",
-        "098": "LYC1"
+        "098": "LYC1",
+        "277": "EXED"
       },
       "versionRange": {
         "minimum": {
@@ -2272,6 +2295,27 @@
                 "0101A4",
                 "0101A5",
                 "0101A6"
+              ]
+            }
+          ]
+        },
+        {
+          "associatedApplicationIdentifiers": [
+            "6449031200"
+          ],
+          "partnerIdentifier": "EXED",
+          "manufacturerIdentifier": "CHEY",
+          "partnerName": "Chery",
+          "terminalCriteria": [
+            {
+              "type": "ecp.2.tci",
+              "tcis": [
+                "010311",
+                "010312",
+                "010313",
+                "010314",
+                "010315",
+                "010316"
               ]
             }
           ]
