@@ -644,6 +644,8 @@
       "PaymentServicesMerchantURL": "https://apple-pay-gateway.apple.com/paymentservices"
     },
     "TW": {
+      "TapToProvisionEnabled": true,
+      "TapToProvisionFirstProvisioningEnabled": true,
       "BuddyManualProvisioningEnabled": true,
       "BuddyProvisioningEnabled": true,
       "BrowseProvisioningBankAppsEnabled": true,
