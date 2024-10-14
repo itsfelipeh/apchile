@@ -2031,7 +2031,10 @@
         "258": "GC01",
         "099": "LOT1",
         "098": "LYC1",
-        "277": "EXED"
+        "277": "EXED",
+        "146": "VLVC",
+        "147": "PLST",
+        "010": "AUDI"
       },
       "versionRange": {
         "minimum": {
@@ -2113,6 +2116,63 @@
             "010206"
           ]
         }] 
+      },
+        {
+         "associatedApplicationIdentifier": [
+          "439635293"
+        ],
+        "manufacturerIdentifier": "VOCG",
+        "partnerIdentifier": "VLVC",
+        "partnerName": "Volvo",
+        "terminalCriteria": [{
+          "type": "ecp.2.tci",
+          "tcis": [
+            "010401",
+            "010402",
+            "010403",
+            "010404",
+            "010405",
+            "010406"
+          ]
+        }]
+      },
+        {
+         "associatedApplicationIdentifier": [
+          "1451196635"
+        ],
+        "manufacturerIdentifier": "VOCG",
+        "partnerIdentifier": "PLST",
+        "partnerName": "Polestar",
+        "terminalCriteria": [{
+          "type": "ecp.2.tci",
+          "tcis": [
+            "010131",
+            "010132",
+            "010133",
+            "010134",
+            "010135",
+            "010136"
+          ]
+        }]
+      },
+        {
+         "associatedApplicationIdentifier": [
+          "440464115"
+        ],
+        "manufacturerIdentifier": "VWAG",
+        "partnerIdentifier": "AUDI",
+        "partnerName": "AUDI",
+        "terminalCriteria": [{
+          "type": "ecp.2.tci",
+          "tcis": [
+            "010111",
+            "010112",
+            "010113",
+            "010114",
+            "010115",
+            "010116"
+          ]
+        }]
       },
         {
           "associatedApplicationIdentifiers": [
