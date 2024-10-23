@@ -1982,7 +1982,8 @@
         "277": "EXED",
         "146": "VLVC",
         "147": "PLST",
-        "010": "AUDI"
+        "010": "AUDI",
+        "100": "ZKR1"
       },
       "versionRange": {
         "minimum": {
@@ -2330,7 +2331,28 @@
               ]
             }
           ]
-        }
+        },
+        {
+          "associatedApplicationIdentifiers": [
+            "1570277888"
+          ],
+          "partnerIdentifier": "ZKR1",
+          "manufacturerIdentifier": "ZEKR",
+          "partnerName": "ZEEKR",
+          "terminalCriteria": [
+            {
+              "type": "ecp.2.tci",
+              "tcis": [
+                "0101B1",
+                "0101B2",
+                "0101B3",
+                "0101B4",
+                "0101B5",
+                "0101B6"
+              ]
+            }
+          ]
+        }   
       ]
     },
     "sharing": {
