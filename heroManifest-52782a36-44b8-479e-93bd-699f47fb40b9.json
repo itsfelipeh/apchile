@@ -64,7 +64,7 @@
       "sha1": "4dcdb5ec98ad32ce7f04631d110d89a4fb71841e",
       "url": "https://smp-device-content.apple.com/static/hero/14/base/HeroCard_mada@2x-gue7hdut-90yu-dbi3-67t6-hidh7h333bdb.png"
     }
-  },
+   },
   "15": {
     "base": {
       "sha1": "a925bc64bae6ebf8ebf14f169ad7d42b0f5460a2",
@@ -84,20 +84,18 @@
     }
   },
   "21": {
-    "base": {
-      "sha1": "83cf84003cb13ca5b42730ac8834d643c58b1e0a",
-      "url": "https://smp-device-content.apple.com/static/hero/21/base/HeroCard_Bancontact@2x-1BC5587F-D6DA-44A6-ADE6-A8C6659D3803.png"
-    }
-  },
+     "base": {
+       "sha1": "83cf84003cb13ca5b42730ac8834d643c58b1e0a",
+       "url": "https://smp-device-content.apple.com/static/hero/21/base/HeroCard_Bancontact@2x-1BC5587F-D6DA-44A6-ADE6-A8C6659D3803.png"
+     }
+   },
   "103": {
     "base": {
       "sha1": "989ff8ad59e7cdaeeaf7aedf71824aac2c9efe89",
       "url": "https://smp-device-content.apple.com/static/hero/103/base/HeroCard_Suica@2x-ebfe9dd4-b619-4118-8937-fd850568ee8d.png"
     },
     "requirements": {
-      "hardware": [
-        "typef"
-      ]
+      "hardware": ["typef"]
     }
   },
   "108": {
