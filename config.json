@@ -37,6 +37,7 @@
       "UserCanResetCloudApplePayView": true,
       "accountServiceEnabled" : true,
       "applyServiceEnabled" : true,
+      "paymentSetupFeaturesCacheUpdateInterval": 2592000,
       "applyServiceFeatureIdentifiers": ["ccs", "fps", "asp"],
       "applyServiceFeatures" : {
         "ccs": {
