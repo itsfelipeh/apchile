@@ -2032,7 +2032,8 @@
         "146": "VLVC",
         "147": "PLST",
         "010": "AUDI",
-        "100": "ZKR1"
+        "100": "ZKR1",
+        "267": "NIO2"
       },
       "versionRange": {
         "minimum": {
@@ -2400,6 +2401,25 @@
                 "0101B6"
               ]
             }
+          ]
+        },
+        {
+          "associatedApplicationIdentifiers": [],
+          "partnerIdentifier": "NIO2",
+          "manufacturerIdentifier": "NIO1",
+          "partnerName": "NIO",
+          "terminalCriteria": [
+              {
+                "type": "ecp.2.tci",
+                "tcis": [
+                    "0100B1",
+                    "0100B2",
+                    "0100B3",
+                    "0100B4",
+                    "0100B5",
+                    "0100B6"
+                ]
+              }
           ]
         }   
       ]
