@@ -2151,7 +2151,8 @@
         "147": "PLST",
         "010": "AUDI",
         "100": "ZKR1",
-        "267": "NIO2"
+        "267": "NIO2",
+        "037": "RAM1"
       },
       "versionRange": {
         "minimum": {
@@ -2233,6 +2234,25 @@
             "010206"
           ]
         }] 
+      },
+        {
+        "associatedApplicationIdentifier": [
+          "1565972415"
+        ],
+        "manufacturerIdentifier": "STLA",
+        "partnerIdentifier": "RAM1",
+        "partnerName": "RAM",
+        "terminalCriteria": [{
+          "type": "ecp.2.tci",
+          "tcis": [
+            "010221",
+            "010222",
+            "010223",
+            "010224",
+            "010225",
+            "010226"
+          ]
+        }]
       },
         {
          "associatedApplicationIdentifier": [
