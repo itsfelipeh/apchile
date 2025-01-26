@@ -2034,7 +2034,8 @@
         "010": "AUDI",
         "100": "ZKR1",
         "267": "NIO2",
-        "037": "RAM1"
+        "037": "RAM1",
+        "122": "GPV1"
       },
       "versionRange": {
         "minimum": {
@@ -2441,7 +2442,26 @@
                 ]
               }
           ]
-        }   
+        },
+        {
+          "associatedApplicationIdentifiers": [],
+          "partnerIdentifier": "GPV1",
+          "manufacturerIdentifier": "GPSV",
+          "partnerName": "Polestar",
+          "terminalCriteria": [
+              {
+                "type": "ecp.2.tci",
+                "tcis": [
+                    "0102A1",
+                    "0102A2",
+                    "0102A3",
+                    "0102A4",
+                    "0102A5",
+                    "0102A6"
+                ]
+              }
+          ]
+        }              
       ]
     },
     "sharing": {
