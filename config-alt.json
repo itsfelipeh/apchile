@@ -2035,7 +2035,8 @@
         "100": "ZKR1",
         "267": "NIO2",
         "037": "RAM1",
-        "122": "GPV1"
+        "122": "GPV1",
+        "121": "GVV1"
       },
       "versionRange": {
         "minimum": {
@@ -2461,7 +2462,26 @@
                 ]
               }
           ]
-        }              
+        },
+        {
+          "associatedApplicationIdentifiers": [],
+          "partnerIdentifier": "GVV1",
+          "manufacturerIdentifier": "GVLV",
+          "partnerName": "Volvo",
+          "terminalCriteria": [
+              {
+                "type": "ecp.2.tci",
+                "tcis": [
+                    "010291",
+                    "010292",
+                    "010293",
+                    "010294",
+                    "010295",
+                    "010296"
+                ]
+              }
+          ]
+        }                  
       ]
     },
     "sharing": {
