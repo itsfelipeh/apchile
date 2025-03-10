@@ -1545,11 +1545,13 @@
             "dk-fleet-cn-e2e.bmw.com",
             "dk-fleet-cn-prod.bmw.com",
             "digitalkey.vivo.com.cn",
-            "ccc-relay.finzjr.com"
+            "ccc-relay.finzjr.com",
+            "digitalkey.xiaomi.com"
           ],
           "relayServerHostsToUseThirdPartyPushTopic": [
             "digitalkey.vivo.com.cn",
-            "ccc-relay.finzjr.com"
+            "ccc-relay.finzjr.com",
+            "digitalkey.xiaomi.com"
           ],
           "relayServerHost": "wallet.apple.com.cn"         
         }
@@ -2660,7 +2662,8 @@
         "wallet.apple.com",
         "wallet.apple.com.cn",
         "digitalkey.vivo.com.cn",
-        "ccc-relay.finzjr.com"
+        "ccc-relay.finzjr.com",
+        "digitalkey.xiaomi.com"
       ]
     }
   },
