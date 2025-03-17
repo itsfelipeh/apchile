@@ -2036,7 +2036,8 @@
         "267": "NIO2",
         "037": "RAM1",
         "122": "GPV1",
-        "121": "GVV1"
+        "121": "GVV1",
+        "290": "XP01"
       },
       "versionRange": {
         "minimum": {
@@ -2481,7 +2482,28 @@
                 ]
               }
           ]
-        }                  
+        },
+        {
+          "associatedApplicationIdentifiers": [
+            "1331318404"
+          ],
+          "partnerIdentifier": "XP01",
+          "manufacturerIdentifier": "XPEV",
+          "partnerName": "XPENG",
+          "terminalCriteria": [
+              {
+                "type": "ecp.2.tci",
+                "tcis": [
+                    "010381",
+                    "010382",
+                    "010383",
+                    "010384",
+                    "010385",
+                    "010386"
+                ]
+              }
+          ]
+        }                   
       ]
     },
     "sharing": {
