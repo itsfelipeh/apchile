@@ -491,8 +491,6 @@
       "PaymentServicesMerchantURL": "https://apple-pay-gateway.apple.com/paymentservices"
     },
     "HK": {
-      "TapToProvisionEnabled": true,
-      "TapToProvisionFirstProvisioningEnabled": true,
       "BuddyManualProvisioningEnabled": true,
       "BrowseProvisioningBankAppsEnabled": true,
       "BuddyProvisioningEnabled": true,
@@ -514,8 +512,6 @@
       "DiscoveryManifestURL": "https://smp-device-content.apple.com/static/discovery/v1/manifest.json"
     },
     "MO": {
-      "TapToProvisionEnabled": true,
-      "TapToProvisionFirstProvisioningEnabled": true,
       "BuddyManualProvisioningEnabled": true,
       "BrowseProvisioningBankAppsEnabled": true,
       "BuddyProvisioningEnabled": true,
@@ -2012,8 +2008,6 @@
       "PaymentSetupImageManifestURLV3": "https://smp-device-content.apple.com/static/hero/v3/heroManifest_V3-3d11e8fa-170c-44aa-b51a-7d1b25561f97.json"
     },
     "MN": {
-      "TapToProvisionEnabled": true,
-      "TapToProvisionFirstProvisioningEnabled": true,
       "BuddyManualProvisioningEnabled": true,
       "BrowseProvisioningBankAppsEnabled": true,
       "BuddyProvisioningEnabled": true,
