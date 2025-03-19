@@ -2066,6 +2066,7 @@
         "147": "PLST",
         "010": "AUDI",
         "100": "ZKR1",
+        "266": "NIO1",
         "267": "NIO2",
         "037": "RAM1",
         "122": "GPV1",
@@ -2457,6 +2458,25 @@
                 "0101B6"
               ]
             }
+          ]
+        },
+        {
+          "associatedApplicationIdentifiers": [],
+          "partnerIdentifier": "NIO1",
+          "manufacturerIdentifier": "NIO1",
+          "partnerName": "NIO",
+          "terminalCriteria": [
+              {
+                  "type": "ecp.2.tci",
+                  "tcis": [
+                      "0100A1",
+                      "0100A2",
+                      "0100A3",
+                      "0100A4",
+                      "0100A5",
+                      "0100A6"
+                  ]
+              }
           ]
         },
         {
