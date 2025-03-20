@@ -1971,6 +1971,9 @@
       "staticContentURL": "https://wallet.cdn-apple.com/broker",
       "enabled": true
     },
+    "unsupportedMerchantCategoryCodes": {
+        "appleCashUnsupportedMerchantCategoryCodes": [6010, 6011, 6012, 6051, 7801, 7802, 9406]
+    },
     "merchantTokens": {
       "versionRange": {
         "minimum": {
