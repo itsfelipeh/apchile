@@ -2502,7 +2502,10 @@
           ]
         },
         {
-          "associatedApplicationIdentifiers": [],
+          "associatedApplicationIdentifiers": [
+            "1502058245",
+            "1451196635"
+          ],
           "partnerIdentifier": "GPV1",
           "manufacturerIdentifier": "GPSV",
           "partnerName": "Polestar",
@@ -2521,7 +2524,9 @@
           ]
         },
         {
-          "associatedApplicationIdentifiers": [],
+          "associatedApplicationIdentifiers": [
+            "6446026534"
+          ],
           "partnerIdentifier": "GVV1",
           "manufacturerIdentifier": "GVLV",
           "partnerName": "Volvo",
