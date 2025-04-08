@@ -3209,6 +3209,70 @@
             "validRegex": "(^[a-zA-Z][0-9]{1,2}[ ]?[0-9][a-zA-Z]{2}$)|(^[a-zA-Z][0-9][a-zA-Z][ ]?[0-9][a-zA-Z]{2}$)|(^[a-zA-Z]{2}[0-9]{1,2}[ ]?[0-9][a-zA-Z]{2}$)|(^[a-zA-Z]{2}[0-9]?[a-zA-Z][ ]?[0-9][a-zA-Z]{2}$)"
           }
         }
+      },
+      "FR": {
+        "nameComponentsFormat": {
+          "givenName": {
+            "type": "text",
+            "minLength": 1,
+            "characterSetDescriptions": ["alphanumericCharacterSet", "whitespaceAndNewlineCharacterSet", "punctuationCharacterSet"],
+            "isValidCharacterSet": true
+          },
+          "familyName": {
+            "type": "text",
+            "minLength": 1,
+            "characterSetDescriptions": ["alphanumericCharacterSet", "whitespaceAndNewlineCharacterSet", "punctuationCharacterSet"],
+            "isValidCharacterSet": true
+          }
+        },
+        "addressFormat": {
+          "postalCode": {
+            "type": "text",
+            "minLength": 5,
+            "validRegex": "^[0-9]{5}$"
+          }
+        }
+      },
+      "IT": {
+        "nameComponentsFormat": {
+          "givenName": {
+            "type": "text",
+            "minLength": 1,
+            "characterSetDescriptions": ["alphanumericCharacterSet", "whitespaceAndNewlineCharacterSet", "punctuationCharacterSet"],
+            "isValidCharacterSet": true
+          },
+        "familyName": {
+          "type": "text",
+          "minLength": 1,
+          "characterSetDescriptions": ["alphanumericCharacterSet", "whitespaceAndNewlineCharacterSet", "punctuationCharacterSet"],
+          "isValidCharacterSet": true
+        }
+      },
+        "addressFormat": {
+          "postalCode": {
+          "type": "text",
+          "minLength": 5,
+          "validRegex": "^[0-9]{5}$"
+          }
+        }
+      },
+      "ES": {
+        "addressFormat": {
+          "postalCode": {
+          "type": "text",
+          "minLength": 5,
+          "validRegex": "^[0-9]{5}$"
+          }
+        }
+      },
+      "DE": {
+        "addressFormat": {
+          "postalCode": {
+          "type": "text",
+          "minLength": 5,
+          "validRegex": "^[0-9]{5}$"
+          }
+        }
       }
     }
   }
