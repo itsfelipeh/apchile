@@ -3389,6 +3389,41 @@
           "validRegex": "^[0-9]{5}$"
           }
         }
+      },
+      "SA": {
+        "addressFormat": {
+          "postalCode": {
+            "type": "text",
+            "minLength": 0,
+            "validRegex": "^[1-8][0-9]{4}(-[0-9]{4})?$"
+          }
+        }
+      },
+      "JP": {
+        "addressFormat": {
+          "postalCode": {
+            "type": "text",
+            "minLength": 8,
+            "validRegex": "^[0-9]{3}-[0-9]{4}$"
+          }
+        }
+      },
+      "CN": {
+        "addressFormat": {
+          "postalCode": {
+            "type": "text",
+            "minLength": 5,
+            "validRegex": "^[0-9]{6}$"
+          }
+        }
+      },
+      "BR": {
+        "addressFormat": {
+          "postalCode": {
+            "type": "text",
+            "validRegex": "^[0-9]{5}-[0-9]{3}$"
+          }
+        }
       }
     }
   }
