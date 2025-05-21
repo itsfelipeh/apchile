@@ -1845,17 +1845,10 @@
       "PaymentServicesMerchantURL": "https://apple-pay-gateway.apple.com/paymentservices",
       "PeerPaymentSupported": false,
       "UserCanResetCloudApplePayView": true,
-      "accountServiceEnabled": false,
-      "applyServiceEnabled": false,
-      "applyServiceFeatureIdentifiers": [],
-      "applyServiceFeatures": {},
-      "minimumOSVersion": {
-        "iPhone": "99",
-        "iPad": "99",
-        "Watch": "99",
-        "Mac": "99",
-        "RealityDevice": "99"
-      }
+      "accountServiceEnabled" : true,
+      "applyServiceEnabled" : true,
+      "applyServiceFeatureIdentifiers": ["ccs"],
+      "applyServiceFeatures" : { "ccs" : { "enablementThreshold" : 1 } }
     },
     "ZA": {
       "TapToProvisionEnabled": true,
