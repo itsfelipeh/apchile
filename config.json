@@ -2074,10 +2074,10 @@
       "PaymentServicesMerchantURL": "https://apple-pay-gateway.apple.com/paymentservices",
       "PeerPaymentSupported": false,
       "UserCanResetCloudApplePayView": true,
-      "accountServiceEnabled": false,
-      "applyServiceEnabled": false,
-      "applyServiceFeatureIdentifiers": [],
-      "applyServiceFeatures": {}
+      "accountServiceEnabled" : true,
+      "applyServiceEnabled" : true,
+      "applyServiceFeatureIdentifiers": ["ccs"],
+      "applyServiceFeatures" : { "ccs" : { "enablementThreshold" : 1 } }
     },
     "OM": {
       "TapToProvisionEnabled": true,
