@@ -659,6 +659,16 @@
       "applyServiceFeatureIdentifiers": ["asp"]
     },
     "ES": {
+      "features": {
+        "paymentOffers": {
+          "versionRange": {
+            "minimum": {
+              "iPhone": "18.0",
+              "iPad": "18.0"
+            }
+          }
+        }
+      },
       "TapToProvisionEnabled": true,
       "TapToProvisionFirstProvisioningEnabled": true,
       "BuddyManualProvisioningEnabled": true,
