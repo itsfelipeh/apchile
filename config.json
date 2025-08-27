@@ -2476,7 +2476,8 @@
         "037": "RAM1",
         "122": "GPV1",
         "121": "GVV1",
-        "290": "XP01"
+        "290": "XP01",
+        "343": "AUDS"
       },
       "versionRange": {
         "minimum": {
@@ -2969,7 +2970,28 @@
                 ]
               }
           ]
-        }                     
+        },
+        {
+          "associatedApplicationIdentifiers": [
+            "1559712461"
+          ],
+          "partnerIdentifier": "AUDS",
+          "manufacturerIdentifier": "AUSA",
+          "partnerName": "SAIC-AUDI",
+          "terminalCriteria": [
+              {
+                "type": "ecp.2.tci",
+                "tcis": [
+                    "010461",
+                    "010462",
+                    "010463",
+                    "010464",
+                    "010465",
+                    "010466"
+                ]
+              }
+          ]
+        }                             
       ]
     },
     "sharing": {
