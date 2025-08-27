@@ -11,6 +11,8 @@
           }
         }
       },
+      "paymentOfferCatalogVersionChangeUpdatePeriod": 86400,
+      "paymentOfferCatalogVersion": 1,
       "TapToProvisionEnabled": true,
       "TapToProvisionFirstProvisioningEnabled": true,
       "BuddyManualProvisioningEnabled": true,
@@ -99,6 +101,8 @@
           }
         }
       },
+      "paymentOfferCatalogVersionChangeUpdatePeriod": 86400,
+      "paymentOfferCatalogVersion": 1,
       "TapToProvisionEnabled": true,
       "TapToProvisionFirstProvisioningEnabled": true,
       "BuddyManualProvisioningEnabled": true,
@@ -134,6 +138,8 @@
           }
         }
       },
+      "paymentOfferCatalogVersionChangeUpdatePeriod": 86400,
+      "paymentOfferCatalogVersion": 1,
       "BuddyManualProvisioningEnabled": true,
       "BuddyProvisioningEnabled": true,
       "ManualProvisioningEnabled": true,
@@ -2220,8 +2226,6 @@
       "PaymentServicesMerchantURL": "https://apple-pay-gateway.apple.com/paymentservices"
     },
     "XK": {
-      "TapToProvisionEnabled": true,
-      "TapToProvisionFirstProvisioningEnabled": true,
       "BuddyManualProvisioningEnabled": true,
       "BuddyProvisioningEnabled": true,
       "ManualProvisioningEnabled": true,
