@@ -2562,6 +2562,25 @@
       },
         {
         "associatedApplicationIdentifier": [
+          "1570215232"
+        ],
+        "manufacturerIdentifier": "RIVN",
+        "partnerIdentifier": "RIV1",
+        "partnerName": "Rivian",
+        "terminalCriteria": [{
+          "type": "ecp.2.tci",
+          "tcis": [
+            "0102E1",
+            "0102E2",
+            "0102E3",
+            "0102E4",
+            "0102E5",
+            "0102E6"
+          ]
+        }]
+      },
+        {
+        "associatedApplicationIdentifier": [
           "1565972415"
         ],
         "manufacturerIdentifier": "STLA",
