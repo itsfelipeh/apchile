@@ -12,7 +12,7 @@
         }
       },
       "paymentOfferCatalogVersionChangeUpdatePeriod": 86400,
-      "paymentOfferCatalogVersion": 1,
+      "paymentOfferCatalogVersion": 2,
       "TapToProvisionEnabled": true,
       "TapToProvisionFirstProvisioningEnabled": true,
       "BuddyManualProvisioningEnabled": true,
@@ -102,7 +102,7 @@
         }
       },
       "paymentOfferCatalogVersionChangeUpdatePeriod": 86400,
-      "paymentOfferCatalogVersion": 1,
+      "paymentOfferCatalogVersion": 2,
       "TapToProvisionEnabled": true,
       "TapToProvisionFirstProvisioningEnabled": true,
       "BuddyManualProvisioningEnabled": true,
@@ -139,7 +139,7 @@
         }
       },
       "paymentOfferCatalogVersionChangeUpdatePeriod": 86400,
-      "paymentOfferCatalogVersion": 1,
+      "paymentOfferCatalogVersion": 2,
       "BuddyManualProvisioningEnabled": true,
       "BuddyProvisioningEnabled": true,
       "ManualProvisioningEnabled": true,
