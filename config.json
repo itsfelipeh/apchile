@@ -2477,7 +2477,10 @@
         "122": "GPV1",
         "121": "GVV1",
         "290": "XP01",
-        "343": "AUDS"
+        "343": "AUDS",
+        "103": "SMT1",
+        "309": "VOH1",
+        "310": "VOH2"
       },
       "versionRange": {
         "minimum": {
@@ -3007,6 +3010,69 @@
                     "010464",
                     "010465",
                     "010466"
+                ]
+              }
+          ]
+        },
+        {
+          "associatedApplicationIdentifiers": [
+            "1576161601"
+          ],
+          "partnerIdentifier": "SMT1",
+          "manufacturerIdentifier": "SMRT",
+          "partnerName": "SMART",
+          "terminalCriteria": [
+              {
+                "type": "ecp.2.tci",
+                "tcis": [
+                    "0101E1",
+                    "0101E2",
+                    "0101E3",
+                    "0101E4",
+                    "0101E5",
+                    "0101E6"
+                ]
+              }
+          ]
+        },
+        {
+          "associatedApplicationIdentifiers": [
+            "1550056350"
+          ],
+          "partnerIdentifier": "VOH1",
+          "manufacturerIdentifier": "VOYH",
+          "partnerName": "Dongfeng Voyah",
+          "terminalCriteria": [
+              {
+                "type": "ecp.2.tci",
+                "tcis": [
+                    "010551",
+                    "010552",
+                    "010553",
+                    "010554",
+                    "010555",
+                    "010556"
+                ]
+              }
+          ]
+        },
+        {
+          "associatedApplicationIdentifiers": [
+            "1550056350"
+          ],
+          "partnerIdentifier": "VOH2",
+          "manufacturerIdentifier": "VOYH",
+          "partnerName": "Dongfeng Voyah",
+          "terminalCriteria": [
+              {
+                "type": "ecp.2.tci",
+                "tcis": [
+                    "010561",
+                    "010562",
+                    "010563",
+                    "010564",
+                    "010565",
+                    "010566"
                 ]
               }
           ]
