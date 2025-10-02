@@ -185,6 +185,16 @@
       "PaymentServicesMerchantURL": "https://apple-pay-gateway.apple.com/paymentservices"
     },
     "FR": {
+      "features": {
+        "paymentOffers": {
+          "versionRange": {
+            "minimum": {
+              "iPhone": "18.0",
+              "iPad": "18.0"
+            }
+          }
+        }
+      },
       "TapToProvisionEnabled": true,
       "TapToProvisionFirstProvisioningEnabled": true,
       "BuddyManualProvisioningEnabled": true,
@@ -707,6 +717,16 @@
       "PaymentServicesMerchantURL": "https://apple-pay-gateway.apple.com/paymentservices"
     },
     "IT": {
+      "features": {
+        "paymentOffers": {
+          "versionRange": {
+            "minimum": {
+              "iPhone": "18.0",
+              "iPad": "18.0"
+            }
+          }
+        }
+      },
       "TapToProvisionEnabled": true,
       "TapToProvisionFirstProvisioningEnabled": true,
       "BuddyManualProvisioningEnabled": true,
@@ -826,6 +846,16 @@
       "applyServiceFeatureIdentifiers": ["asp"]
     },
     "DK": {
+      "features": {
+        "paymentOffers": {
+          "versionRange": {
+            "minimum": {
+              "iPhone": "18.0",
+              "iPad": "18.0"
+            }
+          }
+        }
+      },
       "TapToProvisionEnabled": true,
       "TapToProvisionFirstProvisioningEnabled": true,
       "BuddyManualProvisioningEnabled": true,
@@ -1653,6 +1683,16 @@
       }
     },
     "DE": {
+      "features": {
+        "paymentOffers": {
+          "versionRange": {
+            "minimum": {
+              "iPhone": "18.0",
+              "iPad": "18.0"
+            }
+          }
+        }
+      },
       "BuddyManualProvisioningEnabled": true,
       "BrowseProvisioningBankAppsEnabled": true,
       "BuddyProvisioningEnabled": true,
@@ -1944,7 +1984,7 @@
       "SupportsV3": true,
       "PaymentServicesURL": "https://smp-paymentservices.apple.com/paymentservices",
       "PaymentServicesMerchantURL": "https://apple-pay-gateway.apple.com/paymentservices",
-      "PeerPaymentSupported": false,
+      "PeerPaymentSupported": true,
       "UserCanResetCloudApplePayView": true,
       "accountServiceEnabled" : true,
       "applyServiceEnabled" : true,
