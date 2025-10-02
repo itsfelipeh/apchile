@@ -2273,7 +2273,7 @@
       "SupportsV3": true,
       "PaymentServicesURL": "https://smp-paymentservices.apple.com/paymentservices",
       "PaymentServicesMerchantURL": "https://apple-pay-gateway.apple.com/paymentservices",
-      "PeerPaymentSupported": false,
+      "PeerPaymentSupported": true,
       "UserCanResetCloudApplePayView": true,
       "accountServiceEnabled" : true,
       "applyServiceEnabled" : true,
