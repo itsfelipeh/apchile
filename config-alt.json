@@ -797,6 +797,16 @@
       "PaymentServicesMerchantURL": "https://apple-pay-gateway.apple.com/paymentservices"
     },
     "SE": {
+      "features": {
+        "paymentOffers": {
+          "versionRange": {
+            "minimum": {
+              "iPhone": "18.0",
+              "iPad": "18.0"
+            }
+          }
+        }
+      },
       "TapToProvisionEnabled": true,
       "TapToProvisionFirstProvisioningEnabled": true,
       "BuddyManualProvisioningEnabled": true,
