@@ -247,6 +247,16 @@
       "applyServiceFeatureIdentifiers": ["asp"]
     },
     "FR": {
+      "features": {
+        "paymentOffers": {
+          "versionRange": {
+            "minimum": {
+              "iPhone": "18.0",
+              "iPad": "18.0"
+            }
+          }
+        }
+      },
       "TapToProvisionEnabled": true,
       "TapToProvisionFirstProvisioningEnabled": true,
       "BuddyManualProvisioningEnabled": true,
@@ -796,6 +806,16 @@
       "PaymentServicesMerchantURL": "https://apple-pay-gateway.apple.com/paymentservices"
     },
     "IT": {
+      "features": {
+        "paymentOffers": {
+          "versionRange": {
+            "minimum": {
+              "iPhone": "18.0",
+              "iPad": "18.0"
+            }
+          }
+        }
+      },
       "TapToProvisionEnabled": true,
       "TapToProvisionFirstProvisioningEnabled": true,
       "BuddyManualProvisioningEnabled": true,
@@ -874,6 +894,16 @@
       "PaymentServicesMerchantURL": "https://apple-pay-gateway.apple.com/paymentservices"
     },
     "SE": {
+      "features": {
+        "paymentOffers": {
+          "versionRange": {
+            "minimum": {
+              "iPhone": "18.0",
+              "iPad": "18.0"
+            }
+          }
+        }
+      },
       "TapToProvisionEnabled": true,
       "TapToProvisionFirstProvisioningEnabled": true,
       "BuddyManualProvisioningEnabled": true,
@@ -936,6 +966,16 @@
       "applyServiceFeatureIdentifiers": ["asp"]
     },
     "DK": {
+      "features": {
+        "paymentOffers": {
+          "versionRange": {
+            "minimum": {
+              "iPhone": "18.0",
+              "iPad": "18.0"
+            }
+          }
+        }
+      },
       "TapToProvisionEnabled": true,
       "TapToProvisionFirstProvisioningEnabled": true,
       "BuddyManualProvisioningEnabled": true,
@@ -1779,6 +1819,16 @@
       }
     },
     "DE": {
+      "features": {
+        "paymentOffers": {
+          "versionRange": {
+            "minimum": {
+              "iPhone": "18.0",
+              "iPad": "18.0"
+            }
+          }
+        }
+      },
       "BuddyManualProvisioningEnabled": true,
       "BrowseProvisioningBankAppsEnabled": true,
       "BuddyProvisioningEnabled": true,
