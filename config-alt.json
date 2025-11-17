@@ -2368,6 +2368,7 @@
         "099": "LOT1",
         "098": "LYC1",
         "277": "EXED",
+        "279": "JETO",
         "146": "VLVC",
         "147": "PLST",
         "010": "AUDI",
@@ -2460,6 +2461,25 @@
             "010206"
           ]
         }] 
+      },
+        {
+        "associatedApplicationIdentifier": [
+          "398605251"
+        ],
+        "manufacturerIdentifier": "GM01",
+        "partnerIdentifier": "CADL",
+        "partnerName": "Cadillac",
+        "terminalCriteria": [{
+          "type": "ecp.2.tci",
+          "tcis": [
+            "010161",
+            "010162",
+            "010163",
+            "010164",
+            "010165",
+            "010166"
+          ]
+        }]
       },
         {
         "associatedApplicationIdentifier": [
@@ -2745,6 +2765,27 @@
                 "010314",
                 "010315",
                 "010316"
+              ]
+            }
+          ]
+        },
+        {
+          "associatedApplicationIdentifiers": [
+            "6744060665"
+          ],
+          "partnerIdentifier": "JETO",
+          "manufacturerIdentifier": "CHEY",
+          "partnerName": "Jetour",
+          "terminalCriteria": [
+            {
+              "type": "ecp.2.tci",
+              "tcis": [
+                "010331",
+                "010332",
+                "010333",
+                "010334",
+                "010335",
+                "010336"
               ]
             }
           ]
