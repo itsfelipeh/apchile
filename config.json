@@ -2616,6 +2616,25 @@
       },
         {
         "associatedApplicationIdentifier": [
+          "398605251"
+        ],
+        "manufacturerIdentifier": "GM01",
+        "partnerIdentifier": "CADL",
+        "partnerName": "Cadillac",
+        "terminalCriteria": [{
+          "type": "ecp.2.tci",
+          "tcis": [
+            "010161",
+            "010162",
+            "010163",
+            "010164",
+            "010165",
+            "010166"
+          ]
+        }]
+      },
+        {
+        "associatedApplicationIdentifier": [
           "1570215232"
         ],
         "manufacturerIdentifier": "RIVN",
