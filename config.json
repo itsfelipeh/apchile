@@ -904,6 +904,8 @@
           }
         }
       },
+      "paymentOfferCatalogVersionChangeUpdatePeriod": 86400,
+      "paymentOfferCatalogVersion": 2,
       "TapToProvisionEnabled": true,
       "TapToProvisionFirstProvisioningEnabled": true,
       "BuddyManualProvisioningEnabled": true,
@@ -976,6 +978,8 @@
           }
         }
       },
+      "paymentOfferCatalogVersionChangeUpdatePeriod": 86400,
+      "paymentOfferCatalogVersion": 2,
       "TapToProvisionEnabled": true,
       "TapToProvisionFirstProvisioningEnabled": true,
       "BuddyManualProvisioningEnabled": true,
