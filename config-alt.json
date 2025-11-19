@@ -2372,6 +2372,7 @@
         "146": "VLVC",
         "147": "PLST",
         "010": "AUDI",
+        "272": "AUSA",
         "100": "ZKR1",
         "266": "NIO1",
         "267": "NIO2",
@@ -2554,6 +2555,25 @@
             "010114",
             "010115",
             "010116"
+          ]
+        }]
+      },
+        {
+         "associatedApplicationIdentifier": [
+          "1559712461"
+        ],
+        "manufacturerIdentifier": "VWAG",
+        "partnerIdentifier": "AUSA",
+        "partnerName": "SAIC-AUDI",
+        "terminalCriteria": [{
+          "type": "ecp.2.tci",
+          "tcis": [
+            "010461",
+            "010462",
+            "010463",
+            "010464",
+            "010465",
+            "010466"
           ]
         }]
       },
