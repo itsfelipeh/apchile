@@ -2577,6 +2577,25 @@
           ]
         }]
       },
+      {
+         "associatedApplicationIdentifier": [
+          "1119081688"
+        ],
+        "manufacturerIdentifier": "VWAG",
+        "partnerIdentifier": "AUFA",
+        "partnerName": "FAW-AUDI",
+        "terminalCriteria": [{
+          "type": "ecp.2.tci",
+          "tcis": [
+            "010481",
+            "010482",
+            "010483",
+            "010484",
+            "010485",
+            "010486"
+          ]
+        }]
+      },
         {
           "associatedApplicationIdentifiers": [
             "1272422144",
