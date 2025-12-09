@@ -125,7 +125,15 @@
       "SupportsV3": true,
       "PaymentServicesURL": "https://smp-paymentservices.apple.com/paymentservices",
       "PaymentServicesMerchantURL": "https://apple-pay-gateway.apple.com/paymentservices",
-      "DiscoveryManifestURL": "https://smp-device-content.apple.com/static/discovery/v1/manifest.json"
+      "DiscoveryManifestURL": "https://smp-device-content.apple.com/static/discovery/v1/manifest.json",
+      "accountServiceEnabled": true,
+      "applyServiceEnabled": true,
+      "applyServiceFeatures": {
+        "asp": {
+          "enablementThreshold": 1
+        }
+      },
+      "applyServiceFeatureIdentifiers": ["asp"]
     },
     "CA": {
       "features": {
@@ -2535,6 +2543,9 @@
         "290": "XP01",
         "343": "AUDS",
         "103": "SMT1",
+        "153": "HONG",
+        "304": "TMFA",
+        "305": "TMGA",
         "309": "VOH1",
         "310": "VOH2"
       },
@@ -2749,6 +2760,25 @@
             "010464",
             "010465",
             "010466"
+          ]
+        }]
+      },
+      {
+         "associatedApplicationIdentifier": [
+          "1119081688"
+        ],
+        "manufacturerIdentifier": "VWAG",
+        "partnerIdentifier": "AUFA",
+        "partnerName": "FAW-AUDI",
+        "terminalCriteria": [{
+          "type": "ecp.2.tci",
+          "tcis": [
+            "010481",
+            "010482",
+            "010483",
+            "010484",
+            "010485",
+            "010486"
           ]
         }]
       },
@@ -3188,6 +3218,69 @@
                     "010564",
                     "010565",
                     "010566"
+                ]
+              }
+          ]
+        },
+        {
+          "associatedApplicationIdentifiers": [
+            "1290658161"
+          ],
+          "partnerIdentifier": "HONG",
+          "manufacturerIdentifier": "FAW1",
+          "partnerName": "Hongqi",
+          "terminalCriteria": [
+              {
+                "type": "ecp.2.tci",
+                "tcis": [
+                    "0103B1",
+                    "0103B2",
+                    "0103B3",
+                    "0103B4",
+                    "0103B5",
+                    "0103B6"
+                ]
+              }
+          ]
+        },
+        {
+          "associatedApplicationIdentifiers": [
+            "1033830895"
+          ],
+          "partnerIdentifier": "TMGA",
+          "manufacturerIdentifier": "TMC2",
+          "partnerName": "GAC Toyota",
+          "terminalCriteria": [
+              {
+                "type": "ecp.2.tci",
+                "tcis": [
+                    "0105D1",
+                    "0105D2",
+                    "0105D3",
+                    "0105D4",
+                    "0105D5",
+                    "0105D6"
+                ]
+              }
+          ]
+        },
+        {
+          "associatedApplicationIdentifiers": [
+            "687516806"
+          ],
+          "partnerIdentifier": "TMFA",
+          "manufacturerIdentifier": "TMC2",
+          "partnerName": "FAW-Toyota",
+          "terminalCriteria": [
+              {
+                "type": "ecp.2.tci",
+                "tcis": [
+                    "0105C1",
+                    "0105C2",
+                    "0105C3",
+                    "0105C4",
+                    "0105C5",
+                    "0105C6"
                 ]
               }
           ]
