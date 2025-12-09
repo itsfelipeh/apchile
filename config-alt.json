@@ -2382,6 +2382,9 @@
         "290": "XP01",
         "343": "AUDS",
         "103": "SMT1",
+        "153": "HONG",
+        "304": "TMFA",
+        "305": "TMGA",
         "309": "VOH1",
         "310": "VOH2" 
       },
@@ -3032,6 +3035,69 @@
                     "010564",
                     "010565",
                     "010566"
+                ]
+              }
+          ]
+        },
+        {
+          "associatedApplicationIdentifiers": [
+            "1290658161"
+          ],
+          "partnerIdentifier": "HONG",
+          "manufacturerIdentifier": "FAW1",
+          "partnerName": "Hongqi",
+          "terminalCriteria": [
+              {
+                "type": "ecp.2.tci",
+                "tcis": [
+                    "0103B1",
+                    "0103B2",
+                    "0103B3",
+                    "0103B4",
+                    "0103B5",
+                    "0103B6"
+                ]
+              }
+          ]
+        },
+        {
+          "associatedApplicationIdentifiers": [
+            "1033830895"
+          ],
+          "partnerIdentifier": "TMGA",
+          "manufacturerIdentifier": "TMC2",
+          "partnerName": "GAC Toyota",
+          "terminalCriteria": [
+              {
+                "type": "ecp.2.tci",
+                "tcis": [
+                    "0105D1",
+                    "0105D2",
+                    "0105D3",
+                    "0105D4",
+                    "0105D5",
+                    "0105D6"
+                ]
+              }
+          ]
+        },
+        {
+          "associatedApplicationIdentifiers": [
+            "687516806"
+          ],
+          "partnerIdentifier": "TMFA",
+          "manufacturerIdentifier": "TMC2",
+          "partnerName": "FAW-Toyota",
+          "terminalCriteria": [
+              {
+                "type": "ecp.2.tci",
+                "tcis": [
+                    "0105C1",
+                    "0105C2",
+                    "0105C3",
+                    "0105C4",
+                    "0105C5",
+                    "0105C6"
                 ]
               }
           ]
