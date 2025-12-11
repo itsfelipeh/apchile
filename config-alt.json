@@ -2468,6 +2468,25 @@
       },
         {
         "associatedApplicationIdentifier": [
+          "1559529059"
+        ],
+        "manufacturerIdentifier": "VWAG",
+        "partnerIdentifier": "POAG",
+        "partnerName": "Porsche",
+        "terminalCriteria": [{
+          "type": "ecp.2.tci",
+          "tcis": [
+            "010121",
+            "010122",
+            "010123",
+            "010124",
+            "010125",
+            "010126"
+          ]
+        }]
+      },
+        {
+        "associatedApplicationIdentifier": [
           "398605251"
         ],
         "manufacturerIdentifier": "GM01",
