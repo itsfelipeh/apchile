@@ -2386,7 +2386,8 @@
         "304": "TMFA",
         "305": "TMGA",
         "309": "VOH1",
-        "310": "VOH2" 
+        "310": "VOH2",
+        "007": "TMC1"
       },
       "versionRange": {
         "minimum": {
@@ -3120,7 +3121,31 @@
                 ]
               }
           ]
-        }                     
+        },
+        {
+          "associatedApplicationIdentifiers": [
+            "1569785663",
+            "1455685357",
+            "1577888345",
+            "1617623127"
+          ],
+          "partnerIdentifier": "TMC1",
+          "manufacturerIdentifier": "TMC1",
+          "partnerName": "TOYOTA",
+          "terminalCriteria": [
+              {
+                "type": "ecp.2.tci",
+                "tcis": [
+                    "010601",
+                    "010602",
+                    "010601",
+                    "010604",
+                    "010605",
+                    "010606"
+                ]
+              }
+          ]
+        }                       
       ]
     },
     "sharing": {
