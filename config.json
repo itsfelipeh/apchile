@@ -1819,9 +1819,7 @@
             "dk-fleet-cn-prod.bmw.com",
             "digitalkey.vivo.com.cn",
             "ccc-relay.finzjr.com",
-            "digitalkey.xiaomi.com",
-            "pkl-rls-e.westeurope.cloudapp.azure.com",
-            "relay.eu.int.digitalcarkey.cloud"
+            "digitalkey.xiaomi.com"
           ],
           "relayServerHostsToUseThirdPartyPushTopic": [
             "digitalkey.vivo.com.cn",
