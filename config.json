@@ -913,7 +913,7 @@
         }
       },
       "paymentOfferCatalogVersionChangeUpdatePeriod": 86400,
-      "paymentOfferCatalogVersion": 2,
+      "paymentOfferCatalogVersion": 3,
       "TapToProvisionEnabled": true,
       "TapToProvisionFirstProvisioningEnabled": true,
       "BuddyManualProvisioningEnabled": true,
@@ -1819,7 +1819,9 @@
             "dk-fleet-cn-prod.bmw.com",
             "digitalkey.vivo.com.cn",
             "ccc-relay.finzjr.com",
-            "digitalkey.xiaomi.com"
+            "digitalkey.xiaomi.com",
+            "pkl-rls-e.westeurope.cloudapp.azure.com",
+            "relay.eu.int.digitalcarkey.cloud"
           ],
           "relayServerHostsToUseThirdPartyPushTopic": [
             "digitalkey.vivo.com.cn",
